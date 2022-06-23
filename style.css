@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: rgba(20, 194, 136, 0.425);
+    line-height: 45px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #345daaa2;
+}
+
+nav a {
+    padding: 10px;
+    color: rgb(41, 7, 1);
+
+}
+
+
+.half-width{
+    width:50%;
+    float:left;
+}
+.side-img{
+    width: 50%;
+    padding-left: 25%;
+}
+.primary-btn {
+    color: white;
+    background-color: #8845f4;
+    padding: 13px 42px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+h1{
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+.container{
+    padding-left:5%;
+    display: inline-block;
+}
+.experiences {
+    padding: 30px;
+    margin: 30px;
+    background-color: rgb(238, 251, 255);
+    border-radius: 20px;
+}
+.experience-item {
+    padding: 10px;
+    border-left: 1px solid rgba(137, 130, 247, .2)
+}
+
+address a {
+    margin: 10px;
+    color: rgb(41, 7, 1);
+}
+footer {
+    justify-content: center;
+}
